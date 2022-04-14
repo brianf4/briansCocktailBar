@@ -35,6 +35,11 @@ h1 {
      font-size: 4rem;
      text-align: center;
 }
+
+h2 {
+     font-size: 2rem;
+}
+
 h2, h3, h4 {
      color: white;
      text-align: center;
@@ -89,8 +94,9 @@ footer {
 
 footer section:first-child {
      display: flex;
+     flex-direction: column;
      justify-content: center;
-     align-items: center;
+     
 }
 
 footer section {
@@ -111,4 +117,10 @@ footer .top-half {
 
 .nameOfDrink {
      font-size: 5rem;
+     margin: 0;
+}
+
+.here {
+     margin: 0 0 1.5rem 0;
+     font-size: 2rem;
 }
