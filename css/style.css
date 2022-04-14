@@ -26,8 +26,13 @@ html {
 }
 
 body {
-    background-color: #161139;
+    background-color: #1F0E1E;
     padding: 5rem 20rem;
+}
+
+div {
+     background: no-repeat center/100%  url(/images/bar.gif);
+
 }
 
 h1 {
@@ -47,7 +52,7 @@ h2, h3, h4 {
 
 main {
      display: flex;
-     border: 2px solid lightcoral;
+     
 }
 section {
      border: 2px solid white;
@@ -87,9 +92,8 @@ button {
      font-size: 2rem;
 }
 
-footer {
-     border: 6px solid lightgreen;
-
+footer section{
+     border: none;
 }
 
 footer section:first-child {
